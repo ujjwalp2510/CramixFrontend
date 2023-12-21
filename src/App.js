@@ -5,10 +5,9 @@ import Meeting from './components/Meeting';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Dashboard from './components/Dashboard';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 function App() {
   return (
-    <BrowserRouter basename='/'>
     <Router>
       <div className='App'>
     <Routes>
@@ -21,7 +20,6 @@ function App() {
     </Routes>
     </div>
     </Router>
-    </BrowserRouter>
   );
 }
 
