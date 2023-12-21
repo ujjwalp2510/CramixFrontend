@@ -1,0 +1,197 @@
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ededed;
+}
+.top{
+    height: 80vh;
+    width: 100vw;
+    background-color: #2d2f31;
+    background-color: #ededed;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.bottom{
+    /* height: 10vh; */
+    width: 100vw;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#topleft{
+    width: 50%;
+    padding-left: 3%;
+    padding-top: 3%;
+    text-align: left;
+}
+#subjecttitle{
+    z-index: 1;
+    color: black;
+    font-size: 4em;
+    display: inline-block;
+    font-family: 'Kay Pho Du', serif;
+}
+.nounderline{
+    text-decoration: none;
+}
+#livebutton{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 25%;
+    margin-top: 5%;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid black;   
+    cursor: pointer;
+    border-radius: 5px;
+}
+#liveimg{
+    height: 80%;
+    width: 20%;
+    margin: 0;
+    margin-left: 5%;
+}
+#livenow{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin-left: 7%;
+    font-size: 1.2em;
+}
+#livebutton:hover{
+    color: #0965e1;
+}
+#toprightimg{
+    margin: 0;
+    height: 100%;
+    width: 45%;
+}
+#imptopics, #downloadsyllabus{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 45%;
+    border: 1px solid black;   
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    margin-top: 5%;
+    padding-left: 4%;
+    margin-right: 5%;
+}
+#imptopics:hover, #downloadsyllabus:hover{
+    color: #0965e1;
+    border-color: #0965e1;
+}
+#notes, #discussions, #store{
+    color: #0965e1;
+    font-size: 3em;
+    width: 30vw;
+    height: 80%;
+    margin-top: 1.5%;
+    padding-top: 2%;
+    font-family: 'Kay Pho Du', serif;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+#store{
+    border: none;
+    border-top: 1px solid gray;
+}
+#notes:hover, #discussions:hover, #store:hover{
+    opacity: 0.7;
+}
+#sideArea{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#discussionsArea{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.7);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+@media only screen and (max-width: 800px) {
+    .top {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #topleft {
+        width: 100%;
+        height: 90vh;
+        padding-left: 4%;
+        padding-top: 6%;
+        background: url('../static/new1.svg') no-repeat center;
+        background-position-y: 90%;
+    }
+
+    #subjecttitle {
+        margin-top: 1%;
+        font-size: 2em;
+    }
+
+    #livebutton, #imptopics, #downloadsyllabus {
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 0;
+    }
+    #livebutton{
+        width: 35%;
+        height: 6%;
+    }
+    #imptopics, #downloadsyllabus{
+        height: 6%;
+        width: 80%;
+    }
+    #livenow{
+        margin-left: 5%;
+    }
+    #toprightimg {
+        display: none;
+    }
+
+    #imptopics, #downloadsyllabus {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #notes, #discussions, #store {
+        font-size: 1.5em;
+        width: 100%;
+        padding: 2%;
+    }
+    #discussionsArea{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    #sideArea{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+}

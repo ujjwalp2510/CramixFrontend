@@ -1,0 +1,90 @@
+.centrecardd{
+    height: 40vh;
+    width: 28vw;
+    padding-left: 3%;
+    padding-top: 1%;
+    text-align: left;
+    background-color: #ededed;
+    border-radius: 20px;
+}
+#yearnbranch{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    line-height: 70%;
+    width: 90%;
+    height: 75%;
+}
+select{
+    height: 40px;
+    background-color: #ededed;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type='submit']{
+    margin-left: 5%;
+    width: 30%;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: #0965e1;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    display: inline-block;
+}
+#h3{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    color: #0965e1;
+    font-size: 1.3em;
+}
+label{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 3%;
+    color: #0965e1;
+}
+#cancelbutton{
+    height: 35px;
+    width: 30%;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    border-color: #0965e1;
+    color: #0965e1;
+    font-size: 1em;
+    margin-top: 10%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 35%;
+}
+@media only screen and (max-width: 600px) {
+    .centrecardd {
+        width: 60%;
+        height: 30%;
+        text-align: left;
+        margin-left: 15%;
+    }
+
+    form {
+        margin: auto;
+        width: 90%; 
+    }
+
+    input[type='submit'],
+    #cancelbutton {
+        width: 40%; 
+        height: 45px;
+        margin-left: 0;
+    }
+    #cancelbutton{
+        margin-left: 15%;
+    }
+    input[type='submit']{
+        margin-left: 5%;
+    }
+}

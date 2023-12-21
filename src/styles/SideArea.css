@@ -1,0 +1,59 @@
+.sideArea{
+    height: 100vh;
+    width: 50vw;
+    background-color: #ededed;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2%;
+}
+.sideArea h2 {
+    font-size: 3em;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    font-family: 'Kay Pho Du', serif;
+    padding-bottom: 5%;
+    border-bottom: 1px solid gray;
+  }
+  
+  .sideArea ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sideArea li {
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer;
+    /* vertical-align: middle; */
+    width: 100%;
+    font-size: 1.1em;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+#cross{
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 2%;
+  cursor: pointer;
+}  
+#pdficon{
+  height: fit-content;
+  width: fit-content;
+  vertical-align: middle;
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+@media only screen and (max-width: 800px) {
+  .sideArea{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  }
+}
