@@ -14,7 +14,7 @@ passWord: location.state.livesession.passWord,
 
  userName: location.state.userData.name,
 userEmail: location.state.userData.email,
-leaveUrl: "http://localhost:3000/dashboard",
+leaveUrl: "https://cramix.onrender.com/dashboard",
 };
 
 useEffect(() => {
