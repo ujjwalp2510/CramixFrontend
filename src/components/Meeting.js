@@ -14,7 +14,7 @@ passWord: location.state.livesession.passWord,
 
  userName: location.state.userData.name,
 userEmail: location.state.userData.email,
-leaveUrl: "https://ujjwalp2510.github.io/CramixFrontend/dashboard",
+leaveUrl: "http://localhost:3000/dashboard",
 };
 
 useEffect(() => {
