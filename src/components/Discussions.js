@@ -7,7 +7,7 @@ import SendIcon from "@mui/icons-material/Send";
 import '../styles/Discussions.css';
 import io from "socket.io-client";
 import cross from '../static/cross.png';
-const ENDPOINT = "http://localhost:80";
+const ENDPOINT = "https://cramixbackend.onrender.com";
 
 var data,socket;
 function Discussions(props){
