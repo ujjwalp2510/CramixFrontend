@@ -139,6 +139,7 @@
     }
     .bottom{
         height: 100%;
+        background-color: #ededed;
     }
 
     #topleft {
