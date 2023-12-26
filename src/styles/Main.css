@@ -137,11 +137,9 @@
         flex-direction: column;
         height: auto;
     }
-    .bottom{
-        height: 100%;
-        background-color: #ededed;
+    .main{
+        height: auto;
     }
-
     #topleft {
         width: 96%;
         height: 90vh;
