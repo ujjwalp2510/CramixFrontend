@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+Cramix Frontend
+Cramix is an innovative last-minute exam preparation platform tailored for college students. It provides a comprehensive solution for students to efficiently prepare for exams by offering precise syllabus coverage, essential topics, and real-time collaboration tools.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The live deployment of the Cramix frontend can be accessed here.
 
-## Available Scripts
+Features
+Precise Syllabus Coverage: Cramix covers the exact syllabus of various engineering colleges, ensuring that students have access to all relevant study materials.
+Essential Topics: The platform highlights important topics within each subject, enabling students to focus on key concepts for exams.
+Real-time Subject Chatrooms: Cramix includes exclusive chatrooms for each subject, allowing students to engage in real-time discussions and collaborate with peers.
+Live Sessions: Integrated live sessions provide students with additional learning opportunities and access to expert guidance.
+Intuitive Dashboard: An interactive dashboard allows students to easily navigate through courses, access resources, and manage their study materials.
+Technologies Used
+Frontend
+HTML
+CSS
+JavaScript
+React.js
+Getting Started
+To run the Cramix frontend locally, follow these steps:
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the frontend repository: git clone https://github.com/your-username/cramix-frontend.git
+Navigate to the frontend project directory: cd cramix-frontend
+Install dependencies: npm install
+Start the frontend server: npm start
+License
+This project is licensed under the MIT License.
